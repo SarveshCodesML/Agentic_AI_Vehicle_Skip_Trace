@@ -14,7 +14,7 @@ function App() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: 'Welcome to the Skip Trace AI Agent for Vehicle Repossession.\n\nProvide the following information to begin tracing:\n• VIN Number\n• First Name\n• Last Name\n\nExample: "Trace VIN 1HGBH41JXMN109186 for John Smith"'
+      content: 'Welcome to the Skip Trace AI Agent for Vehicle Repossession.\n\nProvide the following information to begin tracing:\n• VIN Number\n• First Name\n• Last Name'
     }
   ]);
   const [input, setInput] = useState('');
